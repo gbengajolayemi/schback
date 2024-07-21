@@ -1,0 +1,39 @@
+School Management Portal Backend
+Welcome to the backend of the School Management Portal, a robust and scalable server-side application developed in JavaScript. This backend powers the administrative functionalities of the school management system, facilitating efficient handling of staff registrations, student records, and academic results.
+
+Key Features
+Staff Management: :
+
+Manage staff registrations and profiles.
+Student Results Management:
+
+Upload and manage student academic results.
+How to Use
+Setup and Installation:
+
+Clone the repository: git clone <repository-url>
+Navigate to the project directory: cd school-management-backend
+Install dependencies: npm install
+Environment Configuration:
+
+Create a .env file in the root directory with the following format:
+MONGO_URI=your_mongo_db_connection_string
+PORT=your_desired_port_number
+JWT_SECRET=your_jwt_secret_key
+Replace the placeholders with your actual configuration values.
+Running the Server:
+
+Start the server: npm start
+The backend will be accessible at http://localhost:<PORT>.
+API Endpoints:
+
+The endpoints for managing staff and student results are self-explanatory and can be found in the codebase.
+Use tools like Postman for testing the API endpoints.
+Technologies Used
+Node.js: For building the server-side application.
+Express.js: For handling routing and middleware.
+MongoDB: For database management.
+Mongoose: For MongoDB object modeling.
+Note
+This backend is still a work in progress but is fully functional for key features.
+Comprehensive documentation for all API endpoints is available in the project repository.
