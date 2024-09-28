@@ -11,7 +11,7 @@ app.get('/check', (req, res) => {
 
 // Health check endpoint
 app.get('/health', (req, res) => {
-    res.send('Health endpoint is working');
+  res.status(200).json({ status: 'OK', uptime: process.uptime() });
 });
 
 
